@@ -1,3 +1,8 @@
-function skilllsMember() {
-  console.log('I am a member');
+function skillsMember() {
+  return {
+    // Path: member.js
+    skills: function() {
+      return 'Skills: ' + this.skills.join(', ');
+    }
+  };
 }
